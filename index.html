@@ -9,15 +9,22 @@
 <body>
     <div class="container">
 
-        
-    <form action="https://api.web3forms.com/submit" method="POST">
-         <input type="hidden" name="access_key" value="3a255173-5523-47af-9e60-f1f8f39e6912">
-
-        <input type="text" name="name" id="inputName" class="inputform" required>
-        <input type="email" name="email" id="inputEmail" class="inputform" required>
-        <input type="text" name="massege" id="inputMas" class="inputform" required>
-        <button type="submit">Submit</button>
+    <form action="https://api.web3forms.com/submit" method="POST" class="left-contact">
+                    <div class="contact-left-title">
+                        <h2>get in touch</h2> <hr>
+                    </div>
+                <input type="hidden" name="access_key" value="3a255173-5523-47af-9e60-f1f8f39e6912">
+                <input type="text" name="name"  class="contact-input" placeholder="Your Name" required>
+                <input type="email" name="email"  class="contact-input" placeholder="Your Email" required>
+                <textarea name="massege" class="contact-input" placeholder="Your massege"></textarea>
+                <button type="submit">Submit <img src="./assets/arrow_icon.png" ></button>
     </form>
+        <div class="right-contact">
+            <img src="./assets/right_img.png">
+        </div>
+
+        
+    
 
 
     </div>
